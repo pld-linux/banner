@@ -24,7 +24,7 @@ Solaris or AIX.
 Prawie wszystkie systemy UN*Xowe udostêpniaj± program "banner"
 wypisuj±cy jaki¶ krótki tekst wielkimi literami. Za wyj±tkiem Linuksa.
 Ten program uzupe³nia tê lukê. Wypisuje "banner" na ekranie za pomoc±
-wielkich liter z 10 pierwszych znaków wpisanego w lini poleceñ tekstu,
+wielkich liter z 10 pierwszych znaków wpisanego w linii poleceñ tekstu,
 podobnie jak mo¿na to zobaczyæ korzystaj±c z Solarisa lub AIX-a.
 
 %prep
