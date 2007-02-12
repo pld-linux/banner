@@ -1,5 +1,5 @@
 Summary:	Print short string in large letters
-Summary(pl.UTF-8):   Wypisywanie krótkiego tekstu wielkimi literami
+Summary(pl.UTF-8):	Wypisywanie krótkiego tekstu wielkimi literami
 Name:		banner
 Version:	1.3.1
 Release:	1
