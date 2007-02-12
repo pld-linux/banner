@@ -1,5 +1,5 @@
 Summary:	Print short string in large letters
-Summary(pl):	Wypisywanie krótkiego tekstu wielkimi literami
+Summary(pl.UTF-8):   Wypisywanie krÃ³tkiego tekstu wielkimi literami
 Name:		banner
 Version:	1.3.1
 Release:	1
@@ -20,12 +20,12 @@ corresponds to the first 10 characters of a string entered on the
 command line, in a way similar to what you might see when using
 Solaris or AIX.
 
-%description -l pl
-Prawie wszystkie systemy UN*Xowe udostêpniaj± program "banner"
-wypisuj±cy jaki¶ krótki tekst wielkimi literami. Za wyj±tkiem Linuksa.
-Ten program uzupe³nia tê lukê. Wypisuje "banner" na ekranie za pomoc±
-wielkich liter z 10 pierwszych znaków wpisanego w linii poleceñ tekstu,
-podobnie jak mo¿na to zobaczyæ korzystaj±c z Solarisa lub AIX-a.
+%description -l pl.UTF-8
+Prawie wszystkie systemy UN*Xowe udostÄ™pniajÄ… program "banner"
+wypisujÄ…cy jakiÅ› krÃ³tki tekst wielkimi literami. Za wyjÄ…tkiem Linuksa.
+Ten program uzupeÅ‚nia tÄ™ lukÄ™. Wypisuje "banner" na ekranie za pomocÄ…
+wielkich liter z 10 pierwszych znakÃ³w wpisanego w linii poleceÅ„ tekstu,
+podobnie jak moÅ¼na to zobaczyÄ‡ korzystajÄ…c z Solarisa lub AIX-a.
 
 %prep
 %setup -q
