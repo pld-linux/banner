@@ -1,12 +1,12 @@
 Summary:	Print short string in large letters
 Summary(pl.UTF-8):	Wypisywanie krótkiego tekstu wielkimi literami
 Name:		banner
-Version:	1.3.2
+Version:	1.3.3
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		Applications/Games
 Source0:	http://cedar-solutions.com/ftp/software/%{name}-%{version}.tar.gz
-# Source0-md5:	b7474ffeee1b30fdea4f9c5f90415b44
+# Source0-md5:	606a04cec8c0fbf9297cbf1fc8494829
 URL:		http://www.cedar-solutions.com/software.html
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -24,8 +24,9 @@ Solaris or AIX.
 Prawie wszystkie systemy UN*Xowe udostępniają program "banner"
 wypisujący jakiś krótki tekst wielkimi literami. Za wyjątkiem Linuksa.
 Ten program uzupełnia tę lukę. Wypisuje "banner" na ekranie za pomocą
-wielkich liter z 10 pierwszych znaków wpisanego w linii poleceń tekstu,
-podobnie jak można to zobaczyć korzystając z Solarisa lub AIX-a.
+wielkich liter z 10 pierwszych znaków wpisanego w linii poleceń
+tekstu, podobnie jak można to zobaczyć korzystając z Solarisa lub
+AIX-a.
 
 %prep
 %setup -q
@@ -49,5 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS README
-%attr(755,root,root) %{_bindir}/*
+%doc AUTHORS ChangeLog README
+%attr(755,root,root) %{_bindir}/banner
+%{_mandir}/man1/banner.1*
