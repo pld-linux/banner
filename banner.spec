@@ -2,7 +2,7 @@ Summary:	Print short string in large letters
 Summary(pl.UTF-8):	Wypisywanie krótkiego tekstu wielkimi literami
 Name:		banner
 Version:	1.3.4
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/Games
 Source0:	http://cedar-solutions.com/ftp/software/%{name}-%{version}.tar.gz
