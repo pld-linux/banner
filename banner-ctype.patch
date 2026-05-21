@@ -1,0 +1,10 @@
+--- a/banner.c	2026-05-20 09:27:04.348147925 +0200
++++ b/banner.c	2026-05-20 09:27:04.350449910 +0200
+@@ -126,6 +126,7 @@
+    #include <string.h>
+ #endif
+ 
++#include <ctype.h>
+ #include <termios.h>
+ #include <sys/ioctl.h>
+ 
